@@ -10,7 +10,7 @@ import streamlit.components.v1 as components
 import google.generativeai as genai
 
 ## Configuration - API Key
-genai.configure(api_key = os.getenv("GOOGLE_API_KEY"))
+##genai.configure(api_key = os.getenv("GOOGLE_API_KEY"))
 
 #Load Gemini Model
 # Response --> SQL Query
